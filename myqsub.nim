@@ -1,6 +1,3 @@
-#TODO: Change quit to raise
-#TODO: Write help
-
 import os, osproc, strutils, strformat, times, random, terminal
 
 const 
