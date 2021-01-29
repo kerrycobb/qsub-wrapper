@@ -115,7 +115,7 @@ proc myqsub(parser: var QsubParser) =
           # TODO: Maybe should throw error if argument '-' is not last argument
           qsubCmds.add(arg)
         else: # pass flag and value directly to qsub
-          qsubCmds.add([arg, parser.getVal])
+          qsubCmds.add(&"{arg} {parser.getVal}")
     parser.pos.inc # Move parser to next arg
 
   # Use ssh if submitting from compute node 
