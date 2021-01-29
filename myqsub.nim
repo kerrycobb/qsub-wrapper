@@ -1,4 +1,4 @@
-import os, osproc, strutils, strformat, times, random, terminal
+import os, osproc, strutils, strformat, random, terminal
 
 const 
   qsubPath = "/cm/shared/apps/torque/6.1.1.1.h3/bin/qsub"
