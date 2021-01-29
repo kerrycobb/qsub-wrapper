@@ -2,7 +2,7 @@
 
 # Compilation
 Requires Nim to be installed. See https://nim-lang.org/
-
+To compile, run:
 `nim c myqsub.nim`
 
 # Usage
